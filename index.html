@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио</title>
+    <link type="text/css" href="css/styles.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="main-container">
+      <div id="skills-button" onclick="openCloseSkillsMenu('open')">skills</div>
+      <img id="close-icon" src="img/close.png" onclick="openCloseSkillsMenu('close')">
+      <div class="sidebar">
+          <div id="block1">
+                <div class="sidebar-title-1" onclick="toggle('block1', 'skill')">
+                    Основные навыки
+                </div>
+                <div class="block1-wrapper wrapper skill open">
+                    <div class="block">
+                        <p>
+                            Разработка: Python, JavaScript, Kotlin, SQL, Django, DRF, Flask, Docker, RabbitMQ, Celery,
+                            MySQL, PostgreSQL, Redis, Git, CSS 3, HTML 5, Pytest, Postman, Regex, CLI<br>
+                            <br>
+                            Трекеры/мониторинг/документация: Gitlab, Github, Swagger, Greylog, OpenSearch, Jira, YouTrack,
+                            Confluence, Minerva, Pyrus, Webor, Keycloak<br>
+                            <br>
+                            Softskills: работал по методологиям Agile, Scrum, люблю работать в команде, соблюдать сроки,
+                            ответственен и исполнителен, перфекционист, не боюсь рутинной работы, нравится обучать людей
+                            и делиться знаниями
+                        </p>
+                    </div>
+                </div>
+          </div>
+          <div id="block2">
+                <div class="sidebar-title-1" onclick="toggle('block2', 'skill')">
+                    Дополнительные навыки
+                </div>
+                <div class="block2-wrapper wrapper skill">
+                    <div class="block">
+                        <p>
+                            Разработка: C, VBA, XPath, Beautiful Soup, Selenium Web Driver, JAICP, Unity<br>
+                            <br>
+                            Прочее: Wordpress, Github Pages, ISP Manager, PHP MyAdmin, Devtools Console
+                        </p>
+                    </div>
+                </div>
+          </div>
+          <div id="block3">
+                <div class="sidebar-title-1" onclick="toggle('block3', 'skill')">
+                    Опыт разработки помимо Backend
+                </div>
+                <div class="block3-wrapper wrapper skill">
+                    <div class="block">
+                        <p>
+                            - мобильные приложения на Kotlin<br>
+                            - парсеры на Python<br>
+                            - чатботы на Python и JAICP<br>
+                            - SPA на Github Pages на JS<br>
+                            - плагины для Google Chrome на JS<br>
+                            - вёрстка и администрирование сайта на Wordpress<br>
+                            - опыт ручного UX/UI тестирования веб-приложений (на платформе VK Testers в VK)<br>
+                            - макросы для Excel на VBA<br>
+                            - игра на Unity<br>
+                            - консольные утилиты на C<br>
+                            - скрипты для автоматизации на Python (с GUI на TKinter)<br>
+                            - работал с API таких программ и сервисов как XMind, Pyrus, Яндекс Карты, Телеграм, Youtube,
+                            Google Sheet, hh.ru
+                        </p>
+                    </div>
+                </div>
+          </div>
+      </div>
+
+      <div class="content-container">
+          <section id="about">
+              <div class="container">
+                <h2>Познакомимся?</h2>
+                <p class="section-text">
+                    Привет, я Ольховский Александр, занимаюсь Backend разработкой более 3 лет, преимущественно на Python.
+                    Помимо коммерческой разработки в компаниях имею богатый опыт разработки для НКО, open source и
+                    собственных проектов. Для твоего удобства я структурировал свой опыт и навыки в 3 блока в левой колонке.
+                </p>
+              </div>
+          </section>
+
+          <section id="portfolio">
+              <h2>Портфолио</h2>
+              <div class="container portfolio">
+                  <div class="project-block">
+                      <div class="sidebar-title-1" onclick="toggle('project1', 'project')">
+                          Сайт <span class="underline">yourwaytoit</span>
+                      </div>
+                      <div class="project1-wrapper wrapper project">
+                          <div class="block">
+                              <p>
+                                  <a href="https://yourwaytoit.ru" target="_blank">yourwaytoit.ru</a><br>
+                                  Мой собственный проект, разрабатывается и поддерживается полностью мной.<br>
+                                  <br>
+                                  Цель проекта - помочь людям освоить программирование и трудоустроиться.<br>
+                                  <br>
+                                  Фронт - чистый JavaScript, Bootstrap.<br>
+                                  Бэк - Django/Python/MySQL.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="project-block">
+                      <div class="sidebar-title-1" onclick="toggle('project2', 'project')">
+                          Сайт <span class="underline">ecologickzn</span>
+                      </div>
+                      <div class="project2-wrapper wrapper project">
+                          <div class="block">
+                              <p>
+                                  <a href="https://ecologickzn.ru" target="_blank">ecologickzn.ru</a><br>
+                                  Проект НКО Экологично Казань, разрабатывается и поддерживается полностью мной.
+                                  Изначально сайт создавался и долго существовал на Wordpress, этим летом переехали на
+                                  Django.<br>
+                                  <br>
+                                  Цель проекта - развитие культуры бережного отношения к окружающей среде.<br>
+                                  <br>
+                                  Фронт - чистый JavaScript, Bootstrap.<br>
+                                  Бэк - Django/Python/MySQL.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="project-block">
+                      <div class="sidebar-title-1" onclick="toggle('project3', 'project')">
+                          Веб-приложение <span class="underline">каталог вещей</span>
+                      </div>
+                      <div class="project3-wrapper wrapper project">
+                          <div class="block">
+                              <p>
+                                  <a href="https://alexolkhovskiy.github.io/things_catalog/" target="_blank">things_catalog</a><br>
+                                  Мой собственный проект, разрабатывается и поддерживается полностью мной.<br>
+                                  <br>
+                                  Цель проекта - создание каталога личных вещей с указанием таких деталей как
+                                  дата покупки, место покупки, стоимость, цвет, размер, актуальность, срок эксплуатации.<br>
+                                  <br>
+                                  Фронт - чистый JavaScript.<br>
+                                  Бэк - чистый JavaScript.<br>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="project-block">
+                      <div class="sidebar-title-1" onclick="toggle('project4', 'project')">
+                          Веб-приложение <span class="underline">ипотечный калькулятор</span>
+                      </div>
+                      <div class="project4-wrapper wrapper project">
+                          <div class="block">
+                              <p>
+                                  <a href="https://alexolkhovskiy.github.io/mortgage_calculator/" target="_blank">mortgage_calculator</a><br>
+                                  Мой собственный проект, разрабатывается и поддерживается полностью мной.<br>
+                                  <br>
+                                  Цель проекта - расчёты по ипотеке с учётом прогнозируемого роста ежемесячных расходов,
+                                  роста зарплаты, налоговых вычетов и досрочного погашения.<br>
+                                  <br>
+                                  Фронт - чистый JavaScript.<br>
+                                  Бэк - чистый JavaScript.<br>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </section>
+
+          <section id="contact">
+            <div class="container">
+              <h2>Контакты</h2>
+              <p class="section-text">Связаться со мной вы можете следующими способами:</p>
+              <button class="btn-contacts">
+                  <a href="https://t.me/AleksandrOlkhovskii" title="нажмите чтобы перейти" target="_blank">
+                      <img src="img/tg.png" alt="">Телеграм
+                  </a>
+              </button>
+              <button class="btn-contacts" onclick="copyToClipboard('email')" title="нажмите чтобы скопировать">
+                  <img id="email" src="img/mail.png" alt="">Почта
+              </button>
+              <button class="btn-contacts" onclick="copyToClipboard('phone')" title="нажмите чтобы скопировать">
+                  <img id="phone" src="img/phone.png" alt="">Телефон
+              </button>
+            </div>
+          </section>
+
+          <section id="icons">
+              <div id="title-icons">Иконки любезно предоставлены <a href="https://www.flaticon.com/ru/authors/juicy-fish" title="juicy_fish" target="_blank">juicy_fish</a></div>
+          </section>
+
+          <div class="popup-message"></div>
+
+      </div>
+  </div>
+</body>
+</html>
