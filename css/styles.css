@@ -37,6 +37,22 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* кастомный скролл */
+.sidebar::-webkit-scrollbar,
+.content-container::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+.sidebar::-webkit-scrollbar-track,
+.content-container::-webkit-scrollbar-track {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.content-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 footer {
   background-color: #333;
   color: #fff;
@@ -60,7 +76,7 @@ footer {
     background: radial-gradient(circle,
       rgba(30, 107, 61, 1) 0%,
       #004524 50%,
-      rgba(35, 37, 46, 1) 100%
+      rgba(35, 47, 46, 1) 100%
     );
 
   /*background: radial-gradient( circle, rgba(30, 107, 61, 1) 0%, rgba(35, 37, 46, 1) 100%);*/
@@ -75,9 +91,16 @@ footer {
         position: fixed;
         width: 60vw;
     }
+
+    .content-container {
+        width: 100% !important;
+        margin: 0;
+    }
+
     .project-block {
         width: 90% !important;
     }
+
     #skills-button {
         display: block !important;
     }
@@ -133,7 +156,7 @@ footer {
 }
 
 .content-container {
-    background: radial-gradient( circle, rgba(255, 0, 0, 1) 0%, rgba(50, 0, 0, 1) 100%);
+    background: radial-gradient( circle, rgba(255, 0, 0, 1) 0%, rgba(90, 0, 0, 1) 100%);
     /*background: radial-gradient(circle, rgba(202, 1, 71, 1) 0%, rgba(35, 37, 46, 1) 100%);*/
     height: 100vh;
     width: 75vw;
@@ -152,6 +175,7 @@ section {
 
 #about {
     margin-top: 5%;
+    /*text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);*/
 }
 
 .portfolio {
@@ -243,10 +267,6 @@ section {
     color: black;
 }
 
-#icons {
-    margin-top: 3%;
-}
-
 #title-icons {
     position: relative;
     font-size: 1.2em;
@@ -307,4 +327,8 @@ section {
     display: none;
     top: 1%;
     left: 65%;
+}
+
+#portfolio h2 {
+    margin: 0;
 }
