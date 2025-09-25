@@ -65,7 +65,6 @@ footer {
 
 .main-container {
     display: flex;
-    flex-direction: column; /* Располагаем элементы вертикально */
     min-height: 100vh;
 }
 
@@ -338,6 +337,7 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
 
 
