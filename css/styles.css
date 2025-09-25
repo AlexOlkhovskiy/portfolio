@@ -272,7 +272,7 @@ section {
 }
 
 #title-icons {
-    position: relative;
+    position: absolute;
     bottom: 0;
     font-size: 1.2em;
     width: 40%;
@@ -337,6 +337,7 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
 
 
