@@ -65,7 +65,7 @@ footer {
 
 .main-container {
     display: flex;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .sidebar {
@@ -337,6 +337,7 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
 
 
