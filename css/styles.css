@@ -242,7 +242,7 @@ section {
 }
 
 #contact {
-    margin-top: 500px;
+    
 }
 
 .btn-contacts {
@@ -273,6 +273,7 @@ section {
 
 #title-icons {
     position: relative;
+    bottom: 0;
     font-size: 1.2em;
     width: 40%;
     margin: auto;
@@ -336,6 +337,7 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
 
 
