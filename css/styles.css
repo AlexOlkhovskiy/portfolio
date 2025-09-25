@@ -241,6 +241,10 @@ section {
     font-size: 1.5em;
 }
 
+#contact {
+    margin-top: 500px;
+}
+
 .btn-contacts {
     position: relative;
     border: 2px solid black;
@@ -332,3 +336,4 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
