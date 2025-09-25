@@ -65,6 +65,7 @@ footer {
 
 .main-container {
     display: flex;
+    position: relative;
 }
 
 .sidebar {
@@ -337,6 +338,7 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
 
 
