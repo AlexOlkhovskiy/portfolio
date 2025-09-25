@@ -242,7 +242,9 @@ section {
 }
 
 #contact {
-    margin-top: 500px;
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 0; /* Прикрепляем к низу */
+    left: 0; /* Прикрепляем к левому краю */
 }
 
 .btn-contacts {
@@ -336,4 +338,5 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
