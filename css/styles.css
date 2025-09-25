@@ -277,7 +277,7 @@ section {
     bottom: 0;
     font-size: 1.2em;
     width: 40%;
-    margin: auto;
+    margin: auto auto 10px auto;
 }
 
 #title-icons a {
@@ -338,6 +338,7 @@ section {
 #portfolio h2 {
     margin: 0;
 }
+
 
 
 
